@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.nav {
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  width: 35vw;
+}
+.nav-btn {
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  border: 1.2px solid #ff8fd8;
+  color: #ff8fd8;
+  background-color: #fff;
+}
+.nav-btn:hover {
+  border: 1.2px solid #ff52bf;
+  color: #ff52bf;
+}
+
+.header-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-block: 3rem;
+  padding-inline: 2rem;
+}
+.main-title {
+  font-family: "Poppins", sans-serif;
+}
+.discr-header {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.btn-section {
+  background-color: #ff8fd8;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.7rem 4rem;
+  border: 0;
+  margin-block: 2rem;
+  margin-inline: auto;
+  font-weight: 600;
+  box-shadow: 0px 4px 15px 0 #00000042;
+}
+.btn-section:hover {
+  background-color: #ff52bf;
+}
+.screen-mockups {
+  width: 80vw;
+  margin-block: 6rem;
+  margin-inline: auto;
+}
+
+.info-card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding-block: 3rem;
+  padding-inline: 2rem;
+}
+.img-card {
+  width: 10vw;
+}
+.num-card {
+  font-family: "Poppins", sans-serif;
+  margin-block: 1vh;
+  line-height: 1;
+}
+.num-1 {
+  font-size: 4.5rem;
+}
+.num-2 {
+  font-size: 4rem;
+}
+.discr-card {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.bg-section {
+  background-color: #f6fbff;
+}
+.sections-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.sections-discr {
+  font-size: 0.8rem;
+  padding-inline: 2rem;
+}
+.sections-img {
+  width: 80vw;
+}
+.grow-section {
+  background-image: url(../images/bg-section-top-mobile-1.svg),
+    url(../images/bg-section-bottom-mobile-1.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.grow-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  padding-block: 3rem;
+}
+.flowing-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  padding-block: 8rem;
+}
+.users-section {
+  background-image: url(../images/bg-section-top-mobile-2.svg),
+    url(../images/bg-section-bottom-mobile-2.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  padding-block: 6rem;
+}
+.users-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  padding-block: 3rem;
+}
+
+.last-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem 15rem;
+}
+.last-title {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  background-image: url("../images/bg-footer-top-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 4rem;
+}
+.footer-container {
+  padding: 3rem 2rem;
+  background-color: #00252e;
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.logo-footer {
+  width: 55vw;
+}
+.phone-and-email {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.phone-and-email > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.footer-discr {
+  font-size: 1rem;
+  padding-block: 3rem;
+}
+.lab-and-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-bottom: 6rem;
+}
+.label {
+  padding: 1.6rem 9.7rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  margin-inline: auto;
+}
+.footer-btn {
+  border: 0;
+  background-color: #ff8fd8;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  float: right;
+  margin-block: 0.5rem;
+  font-weight: 600;
+}
+.footer-btn:hover {
+  background-color: #ff52bf;
+}
+.social-media {
+  padding: 4rem 0.1rem 0;
+  color: white;
+  font-size: 2.5rem;
+}
+.attribution {
+  background-color: #00252e;
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding-block: 1rem;
+}
+.attribution a {
+  color: #ff8fd8;
+}
+
+@media screen and (max-width: 425px) {
+  .grow-section {
+    background-size: 100% 14%, 100% 7%;
+  }
+  .users-section {
+    background-size: 100% 13%;
+  }
+  .footer {
+    background-size: 100% 8%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .label {
+    padding-inline: 11.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 3.5rem 3rem 1.5rem;
+  }
+  .nav-logo {
+    width: 25vw;
+  }
+  .discr-header {
+    padding-inline: 4rem;
+  }
+  .nav-btn {
+    padding: 0.5rem 1.5rem;
+  }
+  .btn-section {
+    padding: 1rem 6rem;
+    font-size: 1rem;
+  }
+  .info-card-section {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .img-card {
+    width: 5vw;
+  }
+  .num-2 {
+    font-size: 4.5rem;
+  }
+  .grow-section {
+    background-image: url("../images/bg-section-top-desktop-1.svg"),
+      url("../images/bg-section-bottom-desktop-1.svg");
+    padding-top: 8.1rem;
+    padding-bottom: 8rem;
+  }
+  .grow-container {
+    flex-direction: row;
+    padding-inline: 3rem;
+    text-align: left;
+    gap: unset;
+  }
+  .sections-img {
+    width: 38vw;
+  }
+  .sections-title {
+    padding-inline: 2rem;
+  }
+  .flowing-container {
+    flex-direction: row-reverse;
+    padding-inline: 4rem;
+    text-align: left;
+    gap: unset;
+  }
+  .users-section {
+    background-image: url("/images/bg-section-top-desktop-2.svg"),
+      url("/images/bg-section-bottom-desktop-2.svg");
+    padding-block: 8.6rem;
+  }
+  .users-container {
+    flex-direction: row;
+    padding-inline: 4rem;
+    text-align: left;
+    gap: unset;
+  }
+  .footer {
+    background-image: url("/images/bg-footer-top-desktop.svg");
+    padding-top: 9.7rem;
+  }
+  .footer-container {
+    flex-direction: row;
+    gap: 5rem;
+    padding-inline: 5rem;
+    margin-bottom: -1px;
+  }
+  .logo-footer {
+    width: 30vw;
+  }
+  .label {
+    margin-top: 1rem;
+    padding-inline: 9rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav {
+    padding: 4.5rem 5rem 1rem;
+  }
+  .nav-logo {
+    width: 15vw;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .discr-header {
+    padding-inline: 12rem;
+    font-size: 1rem;
+  }
+  .img-card {
+    width: 3vw;
+  }
+  .sections-title {
+    padding-inline: 2rem;
+  }
+  .grow-container {
+    padding-inline: 6rem;
+    gap: 3rem;
+  }
+  .flowing-container {
+    padding-inline: 6rem;
+    gap: 4rem;
+  }
+  .users-container {
+    padding-inline: 6rem;
+    gap: 4rem;
+  }
+  .last-title {
+    font-size: 2rem;
+  }
+  .btn-section {
+    padding: 1.5rem 8rem;
+    font-size: 1.2rem;
+  }
+  .footer-container {
+    gap: 7rem;
+  }
+  .lab-and-btn {
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .label {
+    margin: unset;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav-logo {
+    width: 15vw;
+  }
+  .main-title {
+    font-size: 3rem;
+  }
+  .discr-header {
+    padding-inline: 22rem;
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .sections-title {
+    padding-inline: 2rem;
+    font-size: 2.5rem;
+  }
+  .sections-discr {
+    font-size: 1.1rem;
+  }
+  .grow-container {
+    padding-inline: 8rem;
+    gap: 4rem;
+  }
+  .flowing-container {
+    padding-inline: 8rem;
+    gap: 4rem;
+  }
+  .users-container {
+    padding-inline: 8rem;
+    gap: 4rem;
+  }
+  .users-section {
+    padding-block: 9rem 8rem;
+  }
+  .last-title {
+    font-size: 2.5rem;
+  }
+  .footer-container {
+    padding: 9rem;
+    gap: 18rem;
+  }
+  .logo-footer {
+    width: 20vw;
+  }
+  .footer-discr {
+    font-size: 1.2rem;
+    padding-right: 7rem;
+  }
+
+  .label {
+    display: inline;
+    padding: 1.5rem 9.5rem;
+    margin: unset;
+  }
+}
