@@ -296,8 +296,8 @@ body {
     gap: unset;
   }
   .users-section {
-    background-image: url("/images/bg-section-top-desktop-2.svg"),
-      url("/images/bg-section-bottom-desktop-2.svg");
+    background-image: url("../images/bg-section-top-desktop-2.svg"),
+      url("../images/bg-section-bottom-desktop-2.svg");
     padding-block: 8.6rem;
   }
   .users-container {
@@ -307,7 +307,7 @@ body {
     gap: unset;
   }
   .footer {
-    background-image: url("/images/bg-footer-top-desktop.svg");
+    background-image: url("../images/bg-footer-top-desktop.svg");
     padding-top: 9.7rem;
   }
   .footer-container {
@@ -423,7 +423,6 @@ body {
     font-size: 1.2rem;
     padding-right: 7rem;
   }
-
   .label {
     display: inline;
     padding: 1.5rem 9.5rem;
